@@ -1,4 +1,4 @@
-#lejos-joystick-controller
+# lejos-joystick-controller
 
 Remote control your leJOS robot/vehicle/... via a gamepad using a simple event listener API.
 
@@ -7,7 +7,7 @@ See `JoystickController.java` for an example how to use the API.
 **Note**: Although is it used in a leJOS context here, the joystick controller event API can be used in any application
 that uses jinput to retrieve input device events.
 
-#Instructions on how to get started (eclipse and leJOS plugin)
+# Instructions on how to get started (eclipse and leJOS plugin)
 It is assumed that you have set up your leJOS environment (see http://www.lejos.org for details).
 
 1. Clone/Download this project.
@@ -19,7 +19,7 @@ It is assumed that you have set up your leJOS environment (see http://www.lejos.
 Now the project should build and you should be able to try out the gamepad (adapt `JoystickController.java` to
 your needs - e.g. use WLAN IP adress if you connect to your brick via WLAN).
 
-#Troubleshooting
+# Troubleshooting
 To verify that the joystick/gamepad principally works, you can use [this test programm](https://theuzo007.wordpress.com/2013/10/26/joystick-in-java-with-jinput-v2/).
 
 # License
